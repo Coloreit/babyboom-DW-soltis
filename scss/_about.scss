@@ -1,0 +1,60 @@
+$naranja: rgb(248, 167, 24);
+$celeste: rgb(52, 196, 204);
+$rosa: rgb(249,189,215);
+$verde: rgb(0,194,1);
+$unidadpx: 10px;
+
+/* Main de about.html */ 
+
+.nosotros {
+    display: flex;
+    width: 90%;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(4%);
+    margin: $unidadpx * 2;    
+
+    h2 {
+        color: #000000;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        background-color: $naranja;
+        box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.75);
+        -moz-box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.75);
+        border-radius: $unidadpx * 2;
+        padding: $unidadpx * 2;
+    }
+
+    p {
+        font-size: $unidadpx * 2.5;
+        text-align: center;
+        background-color: rgba(249, 189, 215, 0.7);
+        padding: $unidadpx;
+        margin: $unidadpx;
+        border-radius: $unidadpx;
+    }
+}
+
+.carousel-inner {
+    transform: translateX(25%);
+}
+
+.fotos {
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transform: translateX(6%);
+
+    //Reemplazado por el carrousel
+    img {
+        height: 500px;
+        border-radius: $unidadpx;
+        box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.75);
+        -moz-box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.75);
+    }
+}

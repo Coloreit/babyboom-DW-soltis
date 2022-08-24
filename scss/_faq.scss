@@ -1,0 +1,34 @@
+$naranja: rgb(248, 167, 24);
+$celeste: rgb(52, 196, 204);
+$rosa: rgb(249,189,215);
+$verde: rgb(0,194,1);
+$unidadpx: 10px;
+
+/* Main de faq.html */ 
+
+.pregunta {
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: $unidadpx * 2;
+
+    h3 {
+        font-size: $unidadpx * 2.5;
+        font-weight: bold;
+        text-align: center;
+        background-color: $rosa;
+        border-radius: $unidadpx;
+        padding: $unidadpx;
+        margin: $unidadpx;
+    }
+
+    p {
+        color: #000000;
+        font-size: $unidadpx * 1.5;
+        text-align: center;
+        padding: $unidadpx;
+        margin: $unidadpx;
+    }
+}

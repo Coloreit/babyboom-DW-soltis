@@ -1,0 +1,38 @@
+$naranja: rgb(248, 167, 24);
+$celeste: rgb(52, 196, 204);
+$rosa: rgb(249, 189, 215);
+$verde: rgb(0, 194, 1);
+$unidadpx: 10px;
+
+/*Navegador*/
+.navbar {
+    background-color: $celeste;
+    font-weight: bold;
+    color: white !important;
+
+    div {
+        a {
+            margin-left: $unidadpx * 3;
+            margin-right: $unidadpx * 3;
+            font-size: $unidadpx * 2.2;
+            font-weight: bold;
+            color: white !important;
+        }
+    }
+}
+
+.navbar li:hover {
+    transform: scale(1.2);
+}
+
+.navbar-nav>li {
+    margin-left: $unidadpx * 3;
+    margin-right: $unidadpx * 3;
+    font-size: $unidadpx * 2.2;
+    font-weight: bold;
+    color: white !important;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.2);
+}
