@@ -308,7 +308,10 @@ body {
   flex-flow: row;
   align-items: center;
   justify-content: space-between;
-  margin: 20px; }
+  margin: 20px;
+  transform: translateX(2%); }
+  .marcas div img {
+    width: 20vw; }
 
 /*Extend*/
 .panal, .panal-tamano {
@@ -318,7 +321,8 @@ body {
   background-color: #f9bdd7;
   border-radius: 15px;
   padding: 10px;
-  margin: 10px; }
+  margin: 10px;
+  width: 20vw; }
 
 .panal-tamano {
   font-weight: lighter;

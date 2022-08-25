@@ -13,6 +13,12 @@ $unidadpx: 10px;
     align-items: center;
     justify-content: space-between;
     margin: $unidadpx * 2;
+    transform: translateX(2%);
+    div{
+        img {
+            width: 20vw;
+        }
+    }
 }
 
 /*Extend*/
@@ -25,6 +31,7 @@ $unidadpx: 10px;
     border-radius: $unidadpx * 1.5;
     padding: $unidadpx;
     margin: $unidadpx;
+    width: 20vw;
 }
 
 .panal-tamano {
