@@ -206,46 +206,23 @@ body {
     padding: 10px;
     margin: 10px; }
 
-/* Ubicación de contact.html */
-#contact-main {
-  width: 98%;
-  display: grid;
-  grid-template-areas: "contacto ubicacion"; }
-
-.contacto-gral {
-  grid-area: contacto; }
-
-.ubicacion {
-  grid-area: ubicacion; }
-
 /* Formulario de contact.html */
 /*Mixin*/
 .form {
   display: flex;
-  width: 100%;
+  width: 96%;
   height: 100%;
   flex-flow: column;
   align-items: center;
   justify-content: space-between;
   margin: 20px; }
 
-#form1 {
-  background-color: rgba(52, 196, 204, 0.158);
-  border-radius: 10px;
-  padding: 0;
-  margin: 0;
-  height: 100%; }
-  #form1 span {
-    display: inline-block;
-    margin: 10px; }
-  #form1 div {
-    display: block;
-    margin: 10px; }
-
 .rosa {
   font-size: 25px;
   font-weight: bold;
   text-align: center;
+  width: 20vw;
+  transform: translateX(40vw);
   background-color: #f9bdd7;
   border-radius: 15px;
   padding: 10px;
@@ -253,14 +230,15 @@ body {
 
 .contact {
   display: flex;
-  width: 100%;
-  height: 100%;
+  width: 80vw;
+  height: auto;
   flex-flow: column;
   align-items: center;
   justify-content: space-between;
-  margin: 20px; }
+  margin: 20px;
+  transform: translateX(7vw); }
   .contact iframe {
-    width: 80%;
+    width: 80vw;
     height: 50%;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
@@ -269,13 +247,13 @@ body {
   .contact ul {
     font-size: 25px;
     height: 50%;
-    width: 80%;
+    width: 80vw;
     background-color: #e5e5e5;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     list-style: none;
-    border-radius: 10px 10px 0 0;
+    border-radius: 0 0 10px 10px;
     padding: 0;
     margin: 0 10px; }
 
@@ -331,13 +309,14 @@ body {
 /*Footer - Todos los HTML*/
 footer {
   background-color: #34c4cc;
-  width: 100%;
+  width: 98%;
   height: 60px;
   color: #000000;
-  margin-top: 50px; }
+  margin-top: 50px;
+  transform: translateX(0.5%); }
   footer div {
     display: flex;
-    width: 100%;
+    width: 98%;
     height: 100%;
     align-items: center;
     justify-content: space-around; }
@@ -391,9 +370,7 @@ footer {
   .navbar-nav > li {
     font-size: 15px; }
   #contact-main {
-    width: 98%;
-    display: flex;
-    flex-direction: column; }
+    width: 96%; }
   footer {
     margin: 5px;
     padding: 5px;
@@ -413,7 +390,10 @@ footer {
     transform: translateX(5%); }
   .pago {
     width: 400px;
-    height: 200px; } }
+    height: 200px; }
+  .rosa {
+    width: 35vw;
+    transform: translateX(30vw); } }
 
 @media screen and (max-width: 560px) {
   .logo-principal img {
@@ -453,4 +433,7 @@ footer {
     width: auto;
     height: auto; }
   .nosotros p {
-    font-size: 15px; } }
+    font-size: 15px; }
+  .rosa {
+    width: 60vw;
+    transform: translateX(20vw); } }

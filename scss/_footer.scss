@@ -8,14 +8,15 @@ $unidadpx: 10px;
 
 footer {
     background-color: $celeste;
-    width: 100%;
+    width: 98%;
     height: $unidadpx * 6;
     color: #000000;
     margin-top: $unidadpx * 5;
+    transform: translateX(0.5%);
 
     div {
         display: flex;
-        width: 100%;
+        width: 98%;
         height: 100%;
         align-items: center;
         justify-content: space-around;
