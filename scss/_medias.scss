@@ -156,18 +156,18 @@ $unidadpx: 10px;
         }
     }
 
-    .pregunta {
-        h3 {
-            font-size: $unidadpx * 2;
-        }
-        p {
-            font-size: $unidadpx * 1.5;
-        }
-    }
-
     #form1 {
         width: 100%;
         display: inline-block;
+    }
+
+}
+
+@media screen and (max-width:380px) {
+    .local {
+        p {
+            font-size: $unidadpx * 1.5;
+        }
     }
 
 }

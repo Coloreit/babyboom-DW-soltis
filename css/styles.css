@@ -168,20 +168,8 @@ body {
     border-radius: 10px; }
 
 .carousel-inner {
-  transform: translateX(25%); }
-
-.fotos {
-  width: 90vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  transform: translateX(6%); }
-  .fotos img {
-    height: 500px;
-    border-radius: 10px;
-    box-shadow: 7px 7px 19px -4px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 7px 7px 19px -4px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 7px 7px 19px -4px rgba(0, 0, 0, 0.75); }
+  width: 80vw;
+  margin: 0 auto; }
 
 /* Main de faq.html */
 .pregunta {
@@ -411,13 +399,13 @@ footer {
     footer div {
       display: flex;
       flex-direction: column-reverse; }
-  .pregunta h3 {
-    font-size: 20px; }
-  .pregunta p {
-    font-size: 15px; }
   #form1 {
     width: 100%;
     display: inline-block; } }
+
+@media screen and (max-width: 380px) {
+  .local p {
+    font-size: 15px; } }
 
 @media screen and (max-width: 320px) {
   .galeria {

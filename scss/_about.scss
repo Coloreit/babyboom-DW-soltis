@@ -39,22 +39,6 @@ $unidadpx: 10px;
 }
 
 .carousel-inner {
-    transform: translateX(25%);
-}
-
-.fotos {
-    width: 90vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    transform: translateX(6%);
-
-    //Reemplazado por el carrousel
-    img {
-        height: 500px;
-        border-radius: $unidadpx;
-        box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.75);
-        -webkit-box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.75);
-        -moz-box-shadow: 7px 7px 19px -4px rgba(0,0,0,0.75);
-    }
+    width: 80vw;
+    margin: 0 auto;
 }
