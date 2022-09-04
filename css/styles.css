@@ -194,6 +194,10 @@ body {
     padding: 10px;
     margin: 10px; }
 
+.cards {
+  width: 98vw;
+  transform: translateX(1%); }
+
 /* Formulario de contact.html */
 /*Mixin*/
 .form {
