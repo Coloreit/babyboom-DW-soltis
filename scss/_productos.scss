@@ -30,9 +30,10 @@ $unidadpx: 10px;
         position: absolute;
         top: 0;
         right: 0;
-        background-color: rgba(255, 255, 255, 0.553);
-        color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.553);
+        color: $naranja;
         font-size: $unidadpx * 2;
+        font-weight: bold;
         padding: $unidadpx;
         border-radius: 0 $unidadpx 0 0;
     }
