@@ -156,9 +156,27 @@ $unidadpx: 10px;
         }
     }
 
-    #form1 {
-        width: 100%;
-        display: inline-block;
+    .marcas {
+        width: 80vw;
+        display: flex;
+        flex-direction: column-reverse;
+
+        div {
+
+            .panal {
+                font-size: $unidadpx * 2;
+                width: 60vw;
+            }
+            img {
+                width: 60vw;
+            }
+            
+        }
+    }
+
+    .tabla-talles {
+        font-size: $unidadpx * 1.5;
+        transform: translateX(15%);
     }
 
 }
@@ -167,6 +185,20 @@ $unidadpx: 10px;
     .local {
         p {
             font-size: $unidadpx * 1.5;
+        }
+    }
+
+    .marcas {
+
+        div {
+
+            .panal {
+                width: 80vw;
+            }
+            img {
+                width: 80vw;
+            }
+            
         }
     }
 

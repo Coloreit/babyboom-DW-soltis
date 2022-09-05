@@ -254,9 +254,9 @@ body {
   padding: 10px; }
 
 .tabla-talles {
-  width: 50%;
+  width: 60vw;
   border: 5px solid #f8a718;
-  transform: translateX(50%); }
+  transform: translateX(30%); }
 
 /* MAPA */
 .btn-categoria {
@@ -403,13 +403,26 @@ footer {
     footer div {
       display: flex;
       flex-direction: column-reverse; }
-  #form1 {
-    width: 100%;
-    display: inline-block; } }
+  .marcas {
+    width: 80vw;
+    display: flex;
+    flex-direction: column-reverse; }
+    .marcas div .panal, .marcas div .panal-tamano {
+      font-size: 20px;
+      width: 60vw; }
+    .marcas div img {
+      width: 60vw; }
+  .tabla-talles {
+    font-size: 15px;
+    transform: translateX(15%); } }
 
 @media screen and (max-width: 380px) {
   .local p {
-    font-size: 15px; } }
+    font-size: 15px; }
+  .marcas div .panal, .marcas div .panal-tamano {
+    width: 80vw; }
+  .marcas div img {
+    width: 80vw; } }
 
 @media screen and (max-width: 320px) {
   .galeria {
