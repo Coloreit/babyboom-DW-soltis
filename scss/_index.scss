@@ -9,7 +9,7 @@ $unidadpx: 10px;
 .local {
     img {
         width: 100%;
-        height: 80vh;
+        height: auto;
         object-fit: cover;
         position: relative;
     }
@@ -27,6 +27,43 @@ $unidadpx: 10px;
         background-color:rgba(0, 0, 0, 0.553);
         border-radius: $unidadpx * 1.5;
         padding: $unidadpx * 1.5;
+    }
+}
+
+/*Parte de pagos y envios del index*/
+
+.img-pago {
+    width: 100%;
+    margin-top: $unidadpx * 8;
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: $unidadpx * 1.5;
+}
+
+.pago {
+    width: 500px;
+    height: 350px;
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: $unidadpx;
+    }
+
+    p {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: rgba(255, 255, 255, 0.553);
+        color: rgb(0, 0, 0);
+        font-size: $unidadpx * 2;
+        padding: $unidadpx;
+        border-radius: 0 $unidadpx 0 0;
     }
 }
 

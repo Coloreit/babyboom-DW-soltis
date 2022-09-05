@@ -73,6 +73,13 @@ $unidadpx: 10px;
     .contact ul {
         font-size: $unidadpx * 2;
     }
+
+    .accesorios {
+        img{
+            width: 30vw;
+        }
+        
+    }
     
 }
 
@@ -122,6 +129,26 @@ $unidadpx: 10px;
     .rosa {
         width: 35vw;
         transform: translateX(30vw);
+    }
+
+    .accesorios {
+
+        img{
+            width: 80vw;
+            transform: translateX(10%);
+        }
+
+        p {
+            position: absolute;
+            left: 5vw;
+            font-size: $unidadpx * 1.5;
+            border-radius: 0;
+        }
+    }
+
+    .contenedor-accesorio {
+        display: flex;
+        flex-direction: column;
     }
 
 }
