@@ -451,7 +451,9 @@ footer {
       width: 60vw; }
   .tabla-talles {
     font-size: 15px;
-    transform: translateX(15%); } }
+    transform: translateX(30%); }
+  .nosotros {
+    transform: translateX(1.5%); } }
 
 @media screen and (max-width: 380px) {
   .local p {
